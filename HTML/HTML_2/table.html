@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Table</title>
+    <style>
+        table,td,th{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+        th{
+            background-color:red;
+        }
+        td{background-color: aqua;}
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <table border = "2">
+        <caption>Avengers Team </caption>
+        <thead><tr>
+            <th>Name</th>
+            <th>UID</th>
+            <th>Course Name</th>
+            <th>Marks</th>
+            <th>Contact</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Peter</td>
+            <td>48</td>
+            <td>Spider Man</td>
+            <td>100</td>
+            <td>spiderman@avengers.com</td>
+        </tr>
+        <tr>
+            <td>Batman</td>
+            <td>28</td>
+            <td>Save the city</td>
+            <td>99</td>
+            <td>batman@avengers.com</td>
+        </tr>
+        <tr>
+            <td>Tony Stark</td>
+            <td>19</td>
+            <td>Iron Man</td>
+            <td>100</td>
+            <td>ironman@avengers.com</td>
+        </tr>
+        <tr>
+            <td>Stephan Strange</td>
+            <td>45</td>
+            <td>Doctor</td>
+            <td>99</td>
+            <td>drstrange@avengers.com</td>
+        </tr>
+        <tr>
+            <td>Thor odinson</td>
+            <td>18</td>
+            <td>God of Thunder</td>
+            <td rowspan="2">100</td>
+            <td>Thor@avengers.com</td>
+        </tr>
+        <tr>
+            <td>Dr. Banner</td>
+            <td>19</td>
+            <td>Hulk</td>
+            <!--<td>100</td>-->
+            <td>Hulk@avengers.com</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td colspan="3" align="center">Total Marks</td>
+            <td>598</td>
+            <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
